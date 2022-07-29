@@ -1,0 +1,9 @@
+amplify-chatbot {
+  --width: 180px;
+  --height: 500px;
+  --padding:400px
+  --header-size: 2px;
+  --header-color: blue;
+  --bot-background-color: grey;
+  --header-color: blue;
+}

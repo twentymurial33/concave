@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/dashboards/{dashboardId}": {
+      "name": "/dashboards/{dashboardId}",
+      "lambdaFunction": "concaveaa989395",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

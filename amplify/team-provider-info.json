@@ -1,0 +1,37 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-concave-dev-153455-authRole",
+      "UnauthRoleArn": "arn:aws:iam::567024620811:role/amplify-concave-dev-153455-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::567024620811:role/amplify-concave-dev-153455-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-concave-dev-153455-deployment",
+      "UnauthRoleName": "amplify-concave-dev-153455-unauthRole",
+      "StackName": "amplify-concave-dev-153455",
+      "StackId": "arn:aws:cloudformation:us-east-1:567024620811:stack/amplify-concave-dev-153455/0957d8d0-0863-11ed-b43c-0e51dd2ef81d",
+      "AmplifyAppId": "d3pqhlglui7a73"
+    },
+    "categories": {
+      "function": {
+        "concaveaa989395": {
+          "deploymentBucketName": "amplify-concave-dev-153455-deployment",
+          "s3Key": "amplify-builds/concaveaa989395-436d514a332b47304a65-build.zip"
+        }
+      },
+      "auth": {
+        "concave360f507c": {},
+        "true": {}
+      },
+      "interactions": {
+        "lex7b27bcd8": {
+          "deploymentBucketName": "amplify-concave-dev-153455-deployment",
+          "s3Key": "amplify-builds/lex7b27bcd8-5432626e5571584c4339-build.zip"
+        },
+        "test": {
+          "deploymentBucketName": "amplify-concave-dev-153455-deployment",
+          "s3Key": "amplify-builds/test-3368464f7075506e4369-build.zip"
+        }
+      }
+    }
+  }
+}
