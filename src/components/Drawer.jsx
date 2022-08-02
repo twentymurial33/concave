@@ -14,7 +14,7 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import Stack from "@mui/material/Stack";
 import Chatbot from "../API/Chatbot";
-import Test from "../API/Test";
+
 import Links from "./Nav";
 
 const drawerWidth = 320;
@@ -98,7 +98,7 @@ export default function PersistentDrawerLeft() {
           <Chatbot />
         </Toolbar>
       </AppBar>
-      <Test />
+
       <Drawer
         sx={{
           width: drawerWidth,

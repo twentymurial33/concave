@@ -7,6 +7,16 @@
       "permissions": {
         "setting": "open"
       }
+    },
+    "/getQuickSightdashboardEmbedURL": {
+      "name": "/getQuickSightdashboardEmbedURL",
+      "lambdaFunction": "getQuickSightDashboardEmbedURL",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "read"
+        ]
+      }
     }
   }
 }

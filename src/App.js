@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, useRoutes } from "react-router-dom";
 import Security from "./Security";
 import Home from "./Home";
-import Test from "./API/Test";
+// import Test from "./API/Test";
 import Application from "./Application";
 import IconButton from "@mui/material/IconButton";
 import Box from "@mui/material/Box";
@@ -19,7 +19,7 @@ const AppWrapper = () => {
     },
     { path: "/Security", element: <Security /> },
     { path: "/Application", element: <Application /> },
-    { path: "/Test", element: <Test /> },
+    // { path: "/Test", element: <Test /> },
   ]);
   return routes;
 };
