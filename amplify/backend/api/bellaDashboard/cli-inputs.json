@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "paths": {
+    "/bellaDashboard": {
+      "name": "/bellaDashboard",
+      "lambdaFunction": "bellaDashboardURL",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "read"
+        ]
+      }
+    }
+  }
+}

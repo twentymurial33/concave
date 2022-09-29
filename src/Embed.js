@@ -13,6 +13,8 @@ const useStyles = (theme) => ({
   },
 });
 
+var dashboard;
+
 class Embed extends React.Component {
   constructor(props) {
     super(props);
@@ -40,7 +42,11 @@ class Embed extends React.Component {
         email: email,
       },
     };
-    const quicksight = await API.get("apida819b16", "/dashboards", params);
+    const quicksight = await API.get(
+      "bellaDashboard",
+      "/bellaDashboard",
+      params
+    );
     console.log(quicksight);
     const containerDiv = document.getElementById("dashboardContainer");
 
@@ -55,7 +61,7 @@ class Embed extends React.Component {
       width: "912px",
       footerPaddingEnabled: true,
     };
-    const dashboard = QuickSightEmbedding.embedDashboard(options);
+    dashboard = QuickSightEmbedding.embedDashboard(options);
     this.setState({ loader: false });
   };
 
